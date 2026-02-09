@@ -1,0 +1,10 @@
+# Production service configuration
+server:
+  port: 8084
+
+spring:
+  application:
+    name: production-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/production_db

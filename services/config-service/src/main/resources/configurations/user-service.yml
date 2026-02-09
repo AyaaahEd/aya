@@ -1,0 +1,10 @@
+# User service configuration
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/user_db

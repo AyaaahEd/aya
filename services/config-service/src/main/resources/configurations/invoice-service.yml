@@ -1,0 +1,10 @@
+# Invoice service configuration
+server:
+  port: 8085
+
+spring:
+  application:
+    name: invoice-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/invoice_db
