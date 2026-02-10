@@ -1,0 +1,258 @@
+[
+    {
+        "steps": [
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a17",
+                "machineName": "Colaris",
+                "priority": 1
+            },
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a75",
+                "machineName": "Coating",
+                "priority": 2
+            },
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a15",
+                "machineName": "Cutting",
+                "priority": 3
+            }
+        ],
+        "combinations": [
+            {
+                "quality": "200",
+                "border": false
+            },
+            {
+                "quality": "600",
+                "border": false
+            },
+            {
+                "quality": "411",
+                "border": false
+            },
+            {
+                "quality": "1001",
+                "border": false
+            },
+            {
+                "quality": "1002",
+                "border": false
+            },
+            {
+                "quality": "5501",
+                "border": false
+            },
+            {
+                "quality": "5500",
+                "border": false
+            },
+            {
+                "quality": "334",
+                "border": false
+            },
+            {
+                "quality": "610",
+                "border": false
+            },
+            {
+                "quality": "607",
+                "border": false
+            },
+            {
+                "quality": "1003",
+                "border": false
+            },
+            {
+                "quality": "415",
+                "border": false
+            }
+        ]
+    },
+    {
+        "steps": [
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a17",
+                "machineName": "Colaris",
+                "priority": 1
+            },
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a15",
+                "machineName": "Cutting",
+                "priority": 2
+            }
+        ],
+        "combinations": [
+            {
+                "quality": "201",
+                "border": false
+            },
+            {
+                "quality": "413",
+                "border": false
+            },
+            {
+                "quality": "700",
+                "border": false
+            },
+            {
+                "quality": "701",
+                "border": false
+            },
+            {
+                "quality": "705",
+                "border": false
+            },
+            {
+                "quality": "414",
+                "border": false
+            },
+            {
+                "quality": "1004",
+                "border": false
+            }
+        ]
+    },
+    {
+        "steps": [
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a17",
+                "machineName": "Colaris",
+                "priority": 1
+            },
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a15",
+                "machineName": "Cutting",
+                "priority": 2
+            },
+            {
+                "type": "job",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a78",
+                "machineName": "Coating+in-line Cutting",
+                "priority": 3
+            }
+        ],
+        "combinations": [
+            {
+                "quality": "200",
+                "border": true
+            },
+            {
+                "quality": "1001",
+                "border": true
+            },
+            {
+                "quality": "1002",
+                "border": true
+            },
+            {
+                "quality": "411",
+                "border": true
+            },
+            {
+                "quality": "600",
+                "border": true
+            },
+            {
+                "quality": "5501",
+                "border": true
+            },
+            {
+                "quality": "5500",
+                "border": true
+            }
+        ]
+    },
+    {
+        "steps": [
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a17",
+                "machineName": "Colaris",
+                "priority": 1
+            },
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a15",
+                "machineName": "Cutting",
+                "priority": 2
+            },
+            {
+                "type": "job",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a18",
+                "machineName": "Sewing",
+                "priority": 3
+            }
+        ],
+        "combinations": [
+            {
+                "quality": "499",
+                "border": false
+            },
+            {
+                "quality": "500",
+                "border": false
+            }
+        ]
+    },
+    {
+        "steps": [
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a17",
+                "machineName": "Colaris",
+                "priority": 1
+            }
+        ],
+        "combinations": [
+            {
+                "quality": "498",
+                "border": false
+            }
+        ]
+    },
+    {
+        "steps": [
+            {
+                "type": "form",
+                "machineId": "a93b1886-8ce4-4499-8e27-bf04ee878a25",
+                "machineName": "EFI-printer",
+                "priority": 1
+            },
+            {
+                "type": "form",
+                "machineId": "b93b1886-8ce4-4499-8e27-bf04ee878a15",
+                "machineName": "Cutting",
+                "priority": 2
+            }
+        ],
+        "combinations": [
+            {
+                "quality": "2000",
+                "border": false
+            },
+            {
+                "quality": "2010",
+                "border": false
+            },
+            {
+                "quality": "2015",
+                "border": false
+            },
+            {
+                "quality": "2020",
+                "border": false
+            },
+            {
+                "quality": "2021",
+                "border": false
+            }
+        ]
+    }
+]
