@@ -1,18 +1,22 @@
 package com.pfe.production;
 
+import com.pfe.production.service.WorkflowEngine;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.data.mongodb.config.EnableMongoAuditing;
 
 @SpringBootApplication
+@EnableMongoAuditing
 public class ProductionServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ProductionServiceApplication.class, args);
     }
 
-    @org.springframework.context.annotation.Bean
-    public org.springframework.boot.CommandLineRunner commandLineRunner(
-            com.pfe.production.service.WorkflowEngine engine) {
+    @Bean
+    public CommandLineRunner commandLineRunner(WorkflowEngine engine) {
         return args -> {
             System.out.println("--- Production Workflow Verification ---");
 

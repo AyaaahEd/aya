@@ -81,6 +81,13 @@ services:
       - mongodb
       - discovery-service
 
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
   production-service:
     build: ./services/production-service
     container_name: production-service
@@ -88,8 +95,11 @@ services:
       - "8084:8084"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017/production_db
+      - SPRING_RABBITMQ_HOST=rabbitmq
     depends_on:
       - mongodb
+      - rabbitmq
       - discovery-service
 
   invoice-service:
